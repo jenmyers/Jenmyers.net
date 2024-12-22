@@ -15,7 +15,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 2em;
+  grid-column-gap: 5em;
   width: 80%;
   margin: 5em auto;
 }
@@ -32,11 +32,8 @@ footer {
 
 }
 
-.title {
+.logo {
   text-align: right;
-  img {
-    display: inline-block;
-  }
 }
 
 hr {
@@ -82,10 +79,8 @@ header {
 // TYPOGRAPHY
 
 h1 {
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.2em;
-  font-weight: 300;
-  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: bold;
   margin: 1em 0 0 0;
 }
 
@@ -194,6 +189,10 @@ li span {
   margin: 0;
   padding: 1em 0 0 0;
   text-transform: uppercase;
+}
+
+article p:first-child {
+  margin-top: 0;
 }
 
 // LISTS
@@ -313,6 +312,7 @@ h1, h2, h3 {
   a {
     border-bottom: none;
     color: #333;
+    font-weight: bold;
     &:hover {
       border-bottom: none;
     }
@@ -331,6 +331,10 @@ a.intro-photo {
   &:hover {
     border-bottom: none;
   }
+}
+
+a.logo {
+  border-bottom: none;
 }
 
 // LOG LISTS
