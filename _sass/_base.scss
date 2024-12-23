@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   color: #333;
   font-family: "freight-text-pro", serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 160%;
   margin: 0;
 }
@@ -191,15 +191,14 @@ li span {
   text-transform: uppercase;
 }
 
-article p:first-child {
+article p:first-child, article h2:first-child {
   margin-top: 0;
 }
 
 // LISTS
 
 li {
-  line-height: 160%;
-  margin: 0.8em;
+
 }
 
 header ul, footer ul {
@@ -288,10 +287,8 @@ article img, .story img {
 
 .about-image {
   aspect-ratio: auto;
-  // display: block;
-  // margin: 0 auto;
-  float: left;
-  margin: 1em 2em 1em 0;
+  float: right;
+  margin: 0.5em 0.5em 0 1em;
   width: 40%;
 }
 
@@ -308,7 +305,7 @@ a {
   }
 }
 
-h1, h2, h3 {
+h1, h2, h3, nav {
   a {
     border-bottom: none;
     color: #333;
