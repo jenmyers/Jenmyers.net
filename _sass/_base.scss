@@ -131,7 +131,7 @@ header h3 {
 
 li span {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 300;
   display: inline-block;
   text-transform: uppercase;
@@ -195,6 +195,10 @@ article p:first-child, article h2:first-child {
   margin-top: 0;
 }
 
+nav ul li {
+  color: #999;
+}
+
 // LISTS
 
 li {
@@ -251,6 +255,7 @@ ul.index-list {
   border-top: 1px solid #ddd;
   padding: 0.25em 0;
   li {
+    color: #999;
     display: inline-block;
     font-family: "brandon-grotesque", sans-serif;
     font-size: 0.8em;
@@ -287,8 +292,10 @@ article img, .story img {
 
 .about-image {
   aspect-ratio: auto;
+  border: 1px solid #ccc;
   float: right;
-  margin: 0.5em 0.5em 0 1em;
+  margin: 0.5em 0em 0.5em 1em;
+  padding: 5px;
   width: 40%;
 }
 

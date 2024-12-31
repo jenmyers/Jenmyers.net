@@ -4,7 +4,7 @@
 
     <div class="intro">
 
-      <p>Hi, I'm <span class="highlight">Jen</span>. I'm a technologist, writer and filmmaker in Chicago.</p>
+      <p>Hi, I'm <span class="highlight">Jen</span>. I'm a technologist, writer and filmmaker-in-progress.</p>
 
       <p>The most recent note I posted is:
         {% for post in site.categories.notes limit:1 %}
@@ -18,7 +18,7 @@
         {% endfor %}
       </p>
 
-      <p>The most recent story I posted on my website:
+      <p>The most recent story I posted on my website is:
         {% for post in site.categories.writing limit:1 %}
           <a href="{{ post.url }}">{{ post.title }}</a>
         {% endfor %}
@@ -28,11 +28,14 @@
 
       <p>And there's a new edition of my <a href="https://newsletter.jenmyers.net/">newsletter</a> every month.</p>
 
-      <p>The most recent photo I took is:
+<!--  <p>The most recent photo I took is:
         {% for post in site.categories.photos limit:1 %}
           <a alt="{{ post.image-alt }}" class="intro-photo" href="{{ post.url }}"><img alt="{{ post.image-alt }}" class="{{ post.image-class }}" src="images/{{ post.image }}" /></a>
         {% endfor %}
       </p>
+-->
+
+      <p>Everything else, you can explore yourself.</p>
 
     </div>
 
