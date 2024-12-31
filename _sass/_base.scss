@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   color: #333;
   font-family: "freight-text-pro", serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 160%;
   margin: 0;
 }
@@ -12,15 +12,28 @@ body {
 // LAYOUT
 
 .container {
-  justify-content: center;
-  margin: 4em auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 5em;
   width: 80%;
+  margin: 5em auto;
 }
 
-article, div.story {
-  clear: both;
-  margin: 0 auto;
-  width: 60%;
+nav {
+  grid-area: 1/1/2/2;
+}
+
+article {
+  grid-area: 1/2/2/3;
+}
+
+footer {
+
+}
+
+.logo {
+  text-align: right;
 }
 
 hr {
@@ -45,21 +58,6 @@ header {
   }
 }
 
-footer {
-  display: grid;
-  grid-gap: 2em;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-  "footer-nav footer-nav footer-home";
-  border-top: 1px solid #ccc;
-  margin-top: 4em;
-  padding-top: 0.5em;
-  li {
-    display: inline-block;
-    padding-right: 0.65em;
-  }
-}
-
 .header-title {
   grid-area: header-title;
 }
@@ -81,12 +79,9 @@ footer {
 // TYPOGRAPHY
 
 h1 {
-  display: inline;
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 1.2em;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin: 0 0 0 0.5em;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em 0 0 0;
 }
 
 h2 {
@@ -136,7 +131,7 @@ header h3 {
 
 li span {
   font-family: "brandon-grotesque", sans-serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 300;
   display: inline-block;
   text-transform: uppercase;
@@ -196,11 +191,18 @@ li span {
   text-transform: uppercase;
 }
 
+article p:first-child, article h2:first-child {
+  margin-top: 0;
+}
+
+nav ul li {
+  color: #999;
+}
+
 // LISTS
 
 li {
-  line-height: 160%;
-  margin: 0.8em;
+
 }
 
 header ul, footer ul {
@@ -208,14 +210,14 @@ header ul, footer ul {
   margin: 0;
 }
 
-header li, footer li {
-  color: #ccc;
-  display: inline-block;
-  font-family: "brandon-grotesque", sans-serif;
+nav ul {
+  text-align: right;
+}
+
+nav li {
   font-size: 1em;
   list-style-type: none;
-  text-transform: uppercase;
-  vertical-align: middle;
+  margin: 0;
 }
 
 header li, .footer-home li {
@@ -253,6 +255,7 @@ ul.index-list {
   border-top: 1px solid #ddd;
   padding: 0.25em 0;
   li {
+    color: #999;
     display: inline-block;
     font-family: "brandon-grotesque", sans-serif;
     font-size: 0.8em;
@@ -289,10 +292,10 @@ article img, .story img {
 
 .about-image {
   aspect-ratio: auto;
-  // display: block;
-  // margin: 0 auto;
-  float: left;
-  margin: 1em 2em 1em 0;
+  border: 1px solid #ccc;
+  float: right;
+  margin: 0.5em 0em 0.5em 1em;
+  padding: 5px;
   width: 40%;
 }
 
@@ -309,10 +312,11 @@ a {
   }
 }
 
-h1, h2, h3 {
+h1, h2, h3, nav {
   a {
     border-bottom: none;
     color: #333;
+    font-weight: bold;
     &:hover {
       border-bottom: none;
     }
@@ -331,6 +335,10 @@ a.intro-photo {
   &:hover {
     border-bottom: none;
   }
+}
+
+a.logo {
+  border-bottom: none;
 }
 
 // LOG LISTS
