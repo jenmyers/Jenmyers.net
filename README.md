@@ -4,6 +4,7 @@ Personal website of Jen Myers since 2012.
 
 ## Versions
 
+- Bishop refresh (December 2024)
 - Bishop (February 2023)
 - Data (April 2022)
 - Baymax v2 (December 2021)
