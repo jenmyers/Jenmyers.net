@@ -9,7 +9,7 @@ image-alt:    Still from film RED ROOMS showing a straight-on close-up of a youn
 description:  The ones I liked from the past year.
 ---
 
-I don't know at what point I stopped caring much about making objective values or determinations about films, but it definitely happened. Now I tend to look for whatever is interesting to me. This is a wide-ranging and occasionally chaotic criterion. Some of what interests me might be objectively good, some of it is probably objectively bad. All of which is to underscore that this is not a "best of" list. It's a list of films out of which I got something interesting, however mixed or slight or strange or incomprehensible. We're just going on vibes, now, kids. Strap in.
+I don't know at what point I stopped caring much about making objective values or determinations about films, but it definitely happened. Now I tend to look for whatever is interesting to me. This is a wide-ranging and occasionally chaotic criterion. Some of what interests me might be objectively good, some of it is probably objectively bad. All of which is to underscore that this is not a "best of" list. It's a list of films out of which I got something interesting, however mixed or slight or strange or incomprehensible. We're just going on vibes now, kids. Strap in.
 
 <h3><a href="https://letterboxd.com/film/red-rooms/"><em>Red Rooms</em></a></h3>
 
