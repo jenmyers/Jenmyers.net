@@ -1,4 +1,4 @@
- ---
+---
 title:        Favorite Horror Films of 2024
 date:         2025-01-14
 author:       Jen Myers
@@ -17,11 +17,11 @@ I anticipated that I would like this film based on its description, but no descr
 
 <h3><a href="https://letterboxd.com/film/nosferatu-2024/"><em>Nosferatu</em></a></h3>
 
-What can I say. I dug it. (Actually, [I can say a lot about it and I did](https://quietlittlehorrors.com/episode-06-01-nosferatu-2024/).
+What can I say. I dug it. (Actually, [I can say a lot about it and I did](https://quietlittlehorrors.com/episode-06-01-nosferatu-2024/).)
 
 <h3><a href="https://letterboxd.com/film/longlegs/"><em>Longlegs</em></a></h3>
 
-I've long been on record as an Oz Perkins fan and this felt like a natural continuation of his style and themes. Horror film as personal demon exacavation. That might be just what it's for.
+I've long been on record as an Oz Perkins fan and this felt like a natural continuation of his style and themes. Horror film as personal demon excavation. That might be just what it's for.
 
 <h3><a href="https://letterboxd.com/film/exhuma/"><em>Exhuma</em></a></h3>
 
@@ -53,7 +53,7 @@ Is this strictly a horror film? I don't know. But director Schoenbrun continues 
 
 <h3><a href="https://letterboxd.com/film/witches-2024/"><em>Witches</em></a></h3>
 
-I like personal documentaries in general and, for some topics, the personal is essential. _Witches_ is one of these documentaries, pulling from the filmmaker's experience of postpartum depression as well as cinematic representations of the history unruly and/or unwell women accused of witchcraft. It's a huge, complex discussion that barely got started in the film and it would be great to see it continued, especially when it comes to discussing how postpartum mental health resources are even scarcer for poorer women.
+I like personal documentaries in general and, for some documentary topics, the personal is essential. _Witches_ is one of these documentaries, pulling from the filmmaker's experience of postpartum depression as well as cinematic representations of the history of unruly and/or unwell women accused of witchcraft. It's a huge, complex discussion that barely gets started in the film and it would be great to see it continued, especially when it comes to discussing how postpartum mental health resources are even scarcer for poorer women.
 
 I also enjoyed to some extent: <a href="https://letterboxd.com/film/abigail-2024/"><em>Abigail</em></a>, <a href="https://letterboxd.com/film/apartment-7a/"><em>Apartment 7A</em></a>, <a href="https://letterboxd.com/film/blackout-2023/"><em>Blackout</em></a>, <a href="https://letterboxd.com/film/cuckoo-2024/"><em>Cuckoo</em></a>, <a href="https://letterboxd.com/film/lovely-dark-and-deep/"><em>Lovely, Dark, and Deep</em></a>, <a href="https://letterboxd.com/film/oddity-2024/"><em>Oddity</em></a>, <a href="https://letterboxd.com/film/starve-acre/"><em>Starve Acre</em></a> and <a href="https://letterboxd.com/film/v-h-s-beyond/"><em>V/H/S/Beyond</em></a>.
 
