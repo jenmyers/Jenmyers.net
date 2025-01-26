@@ -15,8 +15,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
+  grid-template-areas: 'secondary primary';
   grid-column-gap: 5em;
-  width: 80%;
+  width: 60%;
   margin: 5em auto;
 }
 
@@ -28,10 +29,6 @@ article {
   grid-area: 1/2/2/3;
 }
 
-footer {
-
-}
-
 .logo {
   text-align: right;
 }
@@ -40,40 +37,6 @@ hr {
   border: 1px solid #ccc;
   margin: 3em auto;
   width: 45%;
-}
-
-header {
-  display: grid;
-  grid-gap: 2em;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-  "header-title header-nav header-nav";
-  margin-bottom: 4em;
-  li {
-    display: inline-block;
-    padding-right: 0.65em;
-  }
-  img {
-    vertical-align: middle;
-  }
-}
-
-.header-title {
-  grid-area: header-title;
-}
-
-.header-nav {
-  grid-area: header-nav;
-  text-align: right;
-}
-
-.footer-nav {
-  grid-area: footer-nav;
-}
-
-.footer-home {
-  grid-area: footer-home;
-  text-align: right;
 }
 
 // TYPOGRAPHY
@@ -201,15 +164,6 @@ nav ul li {
 
 // LISTS
 
-li {
-
-}
-
-header ul, footer ul {
-  padding-left: 0;
-  margin: 0;
-}
-
 nav ul {
   text-align: right;
 }
@@ -323,7 +277,7 @@ h1, h2, h3, nav {
   }
 }
 
-h1 a, header li a, footer li a {
+h1 a {
   border-bottom: none;
   font-weight: 300;
 }
@@ -376,43 +330,34 @@ ul.log {
 
 // MOBILE LAYOUT
 
-@media only screen and (max-width: 768px){
-  .container {
-    justify-content: center;
-    margin: 4em auto;
-    text-align: left;
-    width: 80%;
-  }
-  header {
-    display: block;
-    text-align: center;
-  }
-  h1 {
-    display: block;
-    margin: 0.5em auto;
-  }
-  .header-nav {
-    display: block;
-    margin: 1em auto;
-    text-align: center;
-    width: 80%;
-  }
-  footer {
-    display: block;
-    text-align: center;
-  }
-  .footer-home {
-    text-align: center;
-  }
-  article {
-    ul {
-      padding-left: 0.75em;
-    }
-    li {
-      margin-left: 0;
-    }
-  }
-}
+// @media only screen and (max-width: 768px){
+//   .container {
+//     grid-template-areas: 'primary secondary';
+//   }
+//   nav {
+//     display: inline;
+//     float: left;
+//     ul {
+//       text-align: center;
+//     }
+//     .logo {
+//       padding-left: 25px;
+//       text-align: center;
+//     }
+//   }
+//   h1 {
+//     display: block;
+//     margin: 0.5em auto;
+//   }
+//   article {
+//     ul {
+//       padding-left: 0.75em;
+//     }
+//     li {
+//       margin-left: 0;
+//     }
+//   }
+// }
 
 // RESPONSIVE VIDEO EMBEDS
 
