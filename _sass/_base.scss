@@ -15,18 +15,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
-  grid-template-areas: 'secondary primary';
   grid-column-gap: 5em;
   width: 60%;
   margin: 5em auto;
-}
-
-nav {
-  grid-area: 1/1/2/2;
-}
-
-article {
-  grid-area: 1/2/2/3;
 }
 
 .logo {
@@ -330,34 +321,42 @@ ul.log {
 
 // MOBILE LAYOUT
 
-// @media only screen and (max-width: 768px){
-//   .container {
-//     grid-template-areas: 'primary secondary';
-//   }
-//   nav {
-//     display: inline;
-//     float: left;
-//     ul {
-//       text-align: center;
-//     }
-//     .logo {
-//       padding-left: 25px;
-//       text-align: center;
-//     }
-//   }
-//   h1 {
-//     display: block;
-//     margin: 0.5em auto;
-//   }
-//   article {
-//     ul {
-//       padding-left: 0.75em;
-//     }
-//     li {
-//       margin-left: 0;
-//     }
-//   }
-// }
+@media only screen and (max-width: 768px){
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  nav {
+    margin-top: 2em;
+    order: 1;
+    ul {
+      padding-left: 0;
+      text-align: center;
+    }
+    .logo {
+      text-align: center;
+    }
+  }
+  article {
+    order: 0;
+    text-align: center;
+  }
+  p.forward {
+    text-align: center;
+  }
+  h1 {
+    display: block;
+    margin: 0.5em auto;
+  }
+  article {
+    ul {
+      padding-left: 0.75em;
+    }
+    li {
+      margin-left: 0;
+    }
+  }
+}
 
 // RESPONSIVE VIDEO EMBEDS
 
